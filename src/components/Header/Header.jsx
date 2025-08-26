@@ -15,7 +15,7 @@ export default function Header() {
                       h-fit w-[100%] py-9 px-23 bg-[#1e293b]">
         <Link to={"/"}
           className="text-3xl font-[750] text-white 
-         hover:text-blue-700 
+         hover:text-sky-700 
           transition-colors duration-300 ease-in-out
           cursor-pointer">
           AM
@@ -25,7 +25,7 @@ export default function Header() {
           {headerButtons.map((btn) => (
             <Link
               to={btn.path}
-              className="mx-4 hover:text-blue-700 
+              className="mx-4 hover:text-sky-700 
                transition-colors duration-300 ease-in-out
                cursor-pointer"
               key={btn.label}
