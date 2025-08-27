@@ -12,20 +12,20 @@ export default function Header() {
   return (
     <>
       <div className="flex justify-between items-center
-                      h-fit w-[100%] py-9 px-23 bg-[#1e293b]">
+                      h-fit w-[100%] py-9 px-23 bg-[#0f172a]">
         <Link to={"/"}
-          className="text-3xl font-[750] text-white 
-         hover:text-sky-700 
+          className="text-3xl font-[750] text-[#d3cdcd] 
+         hover:text-white 
           transition-colors duration-300 ease-in-out
           cursor-pointer">
           AM
         </Link>
 
-        <div className="flex text-[#c5cedb] text-xl font-medium">
+        <div className="flex text-[#d3cdcd] text-xl font-medium">
           {headerButtons.map((btn) => (
             <Link
               to={btn.path}
-              className="mx-4 hover:text-sky-700 
+              className="mx-4 hover:text-white 
                transition-colors duration-300 ease-in-out
                cursor-pointer"
               key={btn.label}
