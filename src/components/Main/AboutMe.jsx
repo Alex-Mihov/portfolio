@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function AboutMe() {
     return (
-        <div className='min-h-screen'>AboutMe</div>
+        <div id="about-me"
+            className='min-h-screen'>AboutMe</div>
     )
 }

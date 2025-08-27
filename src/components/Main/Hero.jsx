@@ -11,25 +11,28 @@ export default function Hero() {
             <h3 className='text-5xl text-white'>Junior Front-End Developer </h3>
             <span className='text-white text-xl m-8'>Trasformo idee in interfacce moderne e intuitive, con particolare attenzione alla semplicità, alla funzionalità e all’esperienza utente.</span>
 
-            <button
-                className="cursor-pointer flex items-center justify-between bg-gray-800 px-5 py-4 m-20 rounded-full text-white text-xl tracking-wider shadow-xl hover:bg-gray-600 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px] "
-            >
-                Esplora
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="2"
-                    stroke="currentColor"
-                    className="w-5 h-5 animate-bounce"
+            <a href="#about-me">
+                <button
+                    className="cursor-pointer flex items-center justify-between bg-gray-800 px-5 py-4 mt-40 rounded-full text-white text-xl tracking-wider shadow-xl hover:bg-gray-600 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px] "
                 >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-                    ></path>
-                </svg>
-            </button>
+                    Esplora
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        className="w-5 h-5 animate-bounce"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                        ></path>
+                    </svg>
+                </button>
+            </a>
+
 
         </div >
     )
